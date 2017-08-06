@@ -1,0 +1,18 @@
+这是C语言学习笔记	
+
+1、 total += 5 等效于 total = total + 5
+		例 total += （sum+100）/2 等效于 total = total + [（sum+100）/2]
+2、 count++ 等效于 count =count + 1
+		a++为后缀形式 ++a为前缀形式 a++先运算后+1 ++a先+1后运算 
+3、 a = b+=c++-d+--e/-f什么意思 
+4、 switch-case用法 switch () {case 1: xxxxx; break;}
+		if () {} else if () {} else{} !!注意else和else if的从属关系
+5、 循环体内要有改变条件的机会 避免进入死循环 	
+6、 调试手段:   编译器开debug
+                纸上模拟(极端数) 
+                用printf输出变量的值 
+				用printf提示程序到达的位置[printf("hr1\n");]
+7、	do-while循环 进入循环时不做检查 做完后再检查条件是否满足
+		格式 do {<循环体语句>} while(<循环条件>)； !!记得分号
+8、	do-while 与 while相比 do-while必定做一次循环 而while则不一定
+		
