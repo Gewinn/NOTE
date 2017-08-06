@@ -15,4 +15,7 @@
 7、	do-while循环 进入循环时不做检查 做完后再检查条件是否满足
 		格式 do {<循环体语句>} while(<循环条件>)； !!记得分号
 8、	do-while 与 while相比 do-while必定做一次循环 而while则不一定
-		
+9、 rand()为获取随机数函数 但用之前需调用 #include<stdlib.h>
+		和#include<time.h>  主函数内还应加 srand(time(0))
+10、x%n的结果是[0,n-1]的一个整数 因此x%100得到的是[0,99]之间的数
+11、		
