@@ -40,4 +40,6 @@
 		对于&& 左边是false时就不做右边 (a&&b中,a和b都是true 结果就是true 否则就是false)
 		对于|| 左边是true时就不做右边  (a||b中,a和b中有一个是true结果就是true false亦然)
 20、!!!注意 不要把复合赋值组合进表达式！！
-21、
+21、跳出嵌套循环的手段 接力break goto
+22、注意看 接力break.png 理解连续跳出for循环的套路
+23、在代码中自己指定一个位置 用goto直接跳到自己指定位置 例goto.png中的用法
