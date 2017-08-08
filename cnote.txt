@@ -1,5 +1,6 @@
 这是C语言学习笔记	
 
+0、 if(exit){} ==> if( exit == 1 ){} 因为if()内部为判断真假 即0或1
 1、 total += 5 等效于 total = total + 5
 		例 total += （sum+100）/2 等效于 total = total + [（sum+100）/2]
 2、 count++ 等效于 count =count + 1
@@ -30,8 +31,8 @@
 15、如果有固定次数，用for
 	如果必须执行一次，用do-while
 	其他情况用while
-16、循环控制 可用break 和 continue break 为跳过循环 而 continue则跳过剩下的步骤执行
-		下一循环
+16、循环控制 可用break 和 continue break 为跳过当前所在循环 而 continue则跳过剩下的步
+		骤执行下一循环 !!break和 continue只能对它所在的那层循环做
 17、逻辑运算的结果只有0或1 ！为逻辑非 &&为逻辑与 ||为逻辑或 逻辑运算符优先级低于普
 		通运算符 但单目运算符则高于双目运算符(!为单目运算符) 
 18、优先级排序 ！> && > || 则 !done&&(count > MAX)
