@@ -11,8 +11,19 @@
 7、科学计数法表示方法 <a>e<b> = a*10^b
 8、复数表示方法 z=a+bj 示例 12.3+4j -5.6+7j 对于复数z 可用 z.real 获得实
 	数部分 z.imag 获得虚数部分
-9、三种类型互相转换 用函数 int() float() complex()
+9、三种类型互相转换 用函数 int() float() complex() !变复数
 	int(4.5) = 4 float(4) = 4.0 complex(4) = 4+0j
 10、复数并不支持直接转换成浮点数或整数 但可用z.real和z.imag函数获得
 11、数字类型判断 函数 type(x) 返回x的类型，适合与所有类型的判断
-12、
+12、python中字符串索引从0开始，一个长度为L的字符串最后一个字符的位置是L-1
+	python允许使用负数从字符串右边末尾向左边进行反向索引，最右侧索引值是-1
+	访问字符串特定位置 <string>[<索引>] 例 >>>n="hello" >>>print(n[2]) l
+13、大多数数据类型可转换为字符串 用 str() 函数 例 l = str(n)
+14、字符串操作方法采用格式 <string>.func()
+15、split() 函数将字符串拆分为列表
+		例如 "python is an excellent language".split()
+16、随机种子相同时 生成的随机数相同
+17、当型循环先判断再执行 直到性循环先执行后判断 类似C中的while和do-while 
+	 但python中无直到性循环的直接语句 但可以构造
+18、异常处理语句 try:<body> except <ErrorType>: <handler1> 还可以用else finally
+		语句(可选) 但else 必须放在finally之前
